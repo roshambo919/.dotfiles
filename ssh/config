@@ -1,0 +1,63 @@
+
+# --- SourceTree Generated ---
+Host shallyburton-bitbucket__org
+	HostName bitbucket.org
+	User shallyburton
+	PreferredAuthentications publickey
+	IdentityFile /Users/Spencer/.ssh/shallyburton-bitbucket__org
+# ----------------------------
+
+# --- SourceTree Generated ---
+Host shallyburton-Bitbucket
+	HostName bitbucket.org
+	User shallyburton
+	PreferredAuthentications publickey
+	IdentityFile /Users/Spencer/.ssh/shallyburton-Bitbucket
+# ----------------------------
+
+# --- Manually Generated -- 
+Host dcc
+	HostName dcc-login.oit.duke.edu
+	User rsh29
+
+Host wilco
+	HostName 192.168.186.2
+	User pi
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host hancock
+	HostName 192.168.186.3
+	User pi
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host megadeth
+	HostName 10.237.193.186
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+ 	ForwardX11Trusted yes
+
+Host primus
+	HostName 10.237.192.62
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host coolj
+	HostName 10.237.192.68
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host prodigy
+	HostName 192.168.186.7
+	User spencer
+	ForwardAgent yes
+
+# ----------------------------
