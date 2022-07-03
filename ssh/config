@@ -55,7 +55,7 @@ Host coolj
 	ForwardX11 yes
 	ForwardX11Trusted yes
 
-Host prodigy
+Host theprodigy
 	HostName 192.168.186.7
 	User spencer
 	ForwardAgent yes
