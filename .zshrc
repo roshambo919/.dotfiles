@@ -100,6 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias matlab="sh $HOME/MATLAB/R2020b/bin/matlab &"
+alias veloview="sh $HOME/VeloView/bin/VeloView &"
+
 alias python='python3'
 alias pip='pip3'
 alias pytest='python -m pytest'

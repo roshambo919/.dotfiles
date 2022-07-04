@@ -48,6 +48,11 @@ Host primus
 	ForwardX11 yes
 	ForwardX11Trusted yes
 
+Host rage
+	HostName dcc-login.oit.duke.edu
+	User rsh29
+	ForwardAgent yes
+
 Host coolj
 	HostName 10.237.192.68
 	User spencer
