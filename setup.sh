@@ -6,7 +6,7 @@ if test -f ".zshrc"; then
 	rm ".zshrc"
 fi
 ln -s .dotfiles/zsh/.zshrc .
-source .zshrc
+# source .zshrc
 
 # zsh theme
 cd .oh-my-zsh/themes
