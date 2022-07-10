@@ -6,3 +6,7 @@ cd ../..
 ln -s .dotfiles/bin .
 cd .ssh
 ln -s ../.dotfiles/ssh/config .
+
+git config --global alias.st status
+git config --global alias.fe fetch
+git config --global alias.pu pull
