@@ -65,7 +65,7 @@ Host theprodigy
 	User spencer
 	ForwardAgent yes
 
-Host vm1-bridge-base
+Host vm1-bridge
 	HostName 192.168.186.179
 	User spencer
 	ForwardAgent yes
