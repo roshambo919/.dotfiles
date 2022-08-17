@@ -75,4 +75,10 @@ Host vm0
 	User spencer
 	ForwardAgent yes
 
+Host hass
+	HostName 192.168.186.128
+	User spencer
+	ForwardAgent yes
+
+
 # ----------------------------
