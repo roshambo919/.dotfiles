@@ -34,6 +34,13 @@ Host hancock
 	ForwardX11 yes
 	ForwardX11Trusted yes
 
+Host cake
+	HostName 192.168.186.8
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
 Host megadeth
 	HostName 10.237.193.186
 	User spencer
