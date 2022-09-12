@@ -16,9 +16,16 @@ Host shallyburton-Bitbucket
 # ----------------------------
 
 # --- Manually Generated -- 
-Host dcc
-	HostName dcc-login.oit.duke.edu
-	User rsh29
+
+
+# --NAS
+
+Host nastynas
+	HostName 192.168.186.5
+	User spencer
+
+
+# --raspberry pi
 
 Host wilco
 	HostName 192.168.186.2
@@ -40,6 +47,13 @@ Host cake
 	ForwardAgent yes
 	ForwardX11 yes
 	ForwardX11Trusted yes
+
+
+# --duke machines
+
+Host dcc
+	HostName dcc-login.oit.duke.edu
+	User rsh29
 
 Host megadeth
 	HostName 10.237.193.186
@@ -66,6 +80,9 @@ Host coolj
 	ForwardAgent yes
 	ForwardX11 yes
 	ForwardX11Trusted yes
+
+
+# -- server and VM's
 
 Host theprodigy
 	HostName 192.168.186.7

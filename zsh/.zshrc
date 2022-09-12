@@ -117,9 +117,10 @@ alias goauto='cd ~/Documents/Projects/Autonomy'
 alias c='clear'
 alias sourz='source ~/.zshrc'
 alias vimz='vim ~/.zshrc'
-alias mendeley='~/AppImages/mendeley-reference-manager*.AppImage &'
+alias mendeley='~/AppImages/mendeley-reference-manager*.AppImage >out 2>&1 &'
 alias kdenlive='~/AppImages/kdenlive*.AppImage &'
 alias krita='~/AppImages/krita*.appimage &'
+alias avidemux='~/AppImages/avidemux* &'
 #
 #
 #
