@@ -41,13 +41,23 @@ Host hancock
 	ForwardX11 yes
 	ForwardX11Trusted yes
 
-Host cake
+Host jack
 	HostName 192.168.186.8
 	User spencer
 	ForwardAgent yes
 	ForwardX11 yes
 	ForwardX11Trusted yes
 
+Host posty
+	HostName 192.168.186.9
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host pvc
+	HostName 172.20.10.12
+	User pi
 
 # --duke machines
 

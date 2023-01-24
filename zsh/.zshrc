@@ -112,7 +112,7 @@ alias ta='tmux attach-session -t'
 alias ts='tmux-start.sh'
 alias tt='tmux choose-tree && tmux ls'
 alias tw='tmux switch-client -t'
-alias goauto='cd ~/Documents/Projects/Autonomy'
+alias goproj='cd ~/Documents/Projects/'
 
 alias c='clear'
 alias sourz='source ~/.zshrc'
@@ -120,7 +120,10 @@ alias vimz='vim ~/.zshrc'
 alias mendeley='~/AppImages/mendeley-reference-manager*.AppImage >out 2>&1 &'
 alias kdenlive='~/AppImages/kdenlive*.AppImage &'
 alias krita='~/AppImages/krita*.appimage &'
-alias avidemux='~/AppImages/avidemux* &'
+alias avidemux='~/AppImages/avidemux* &
+
+fpath+=~/.zfunc
+autoload -Uz compinit && compinit'
 #
 #
 #
@@ -151,3 +154,4 @@ fi
 # <<< conda initialize <<<
 
 export APOLLO_ROOT_DIR=/home/spencer/Documents/Projects/Autonomy/Simulators/Apollo/apollo
+source /opt/ros/noetic/setup.zsh
