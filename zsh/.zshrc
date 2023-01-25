@@ -4,6 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -154,4 +155,7 @@ fi
 # <<< conda initialize <<<
 
 export APOLLO_ROOT_DIR=/home/spencer/Documents/Projects/Autonomy/Simulators/Apollo/apollo
-source /opt/ros/noetic/setup.zsh
+
+if [ -d "/opt/ros/noetic" ]; then
+	source /opt/ros/noetic/setup.zsh
+fi

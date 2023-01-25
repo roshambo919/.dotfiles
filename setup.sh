@@ -30,6 +30,4 @@ fi
 ln -s ../.dotfiles/ssh/config .
 
 # git configs
-git config --global alias.st status
-git config --global alias.fe fetch
-git config --global alias.pu pull
+bash git/make_aliases.sh
