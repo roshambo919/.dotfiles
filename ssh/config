@@ -18,6 +18,14 @@ Host shallyburton-Bitbucket
 # --- Manually Generated -- 
 
 
+Host eagles
+	HostName 192.168.1.230
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+
 # --NAS
 
 Host nastynas
@@ -50,6 +58,20 @@ Host jack
 
 Host posty
 	HostName 192.168.186.9
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host alice
+	HostName 192.168.1.62
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host dan
+	HostName 192.168.1.147
 	User spencer
 	ForwardAgent yes
 	ForwardX11 yes
