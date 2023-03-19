@@ -30,4 +30,5 @@ fi
 ln -s ../.dotfiles/ssh/config .
 
 # git configs
-bash git/make_aliases.sh
+cd ../.dotfiles
+bash ./git/make_aliases.sh
