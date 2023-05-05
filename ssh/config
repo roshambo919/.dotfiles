@@ -25,6 +25,12 @@ Host eagles
 	ForwardX11 yes
 	ForwardX11Trusted yes
 
+Host jet
+	HostName 10.237.192.59
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
 
 # --NAS
 
