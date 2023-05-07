@@ -49,8 +49,8 @@ Host wilco
 	ForwardX11Trusted yes
 
 Host hancock
-	HostName 192.168.186.3
-	User pi
+	HostName 192.168.186.11
+	User spencer
 	ForwardAgent yes
 	ForwardX11 yes
 	ForwardX11Trusted yes
