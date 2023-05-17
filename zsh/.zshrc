@@ -123,10 +123,8 @@ alias vimc='vim ~/.ssh/config'
 alias mendeley='~/AppImages/mendeley-reference-manager*.AppImage >out 2>&1 &'
 alias kdenlive='~/AppImages/kdenlive*.AppImage &'
 alias krita='~/AppImages/krita*.appimage &'
-alias avidemux='~/AppImages/avidemux* &
+alias avidemux='~/AppImages/avidemux* &'
 
-fpath+=~/.zfunc
-autoload -Uz compinit && compinit'
 #
 #
 #
