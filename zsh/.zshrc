@@ -118,6 +118,8 @@ alias goproj='cd ~/Documents/Projects/'
 alias c='clear'
 alias sourz='source ~/.zshrc'
 alias vimz='vim ~/.zshrc'
+alias vimc='vim ~/.ssh/config'
+
 alias mendeley='~/AppImages/mendeley-reference-manager*.AppImage >out 2>&1 &'
 alias kdenlive='~/AppImages/kdenlive*.AppImage &'
 alias krita='~/AppImages/krita*.appimage &'
@@ -159,3 +161,7 @@ export APOLLO_ROOT_DIR=/home/spencer/Documents/Projects/Autonomy/Simulators/Apol
 if [ -d "/opt/ros/noetic" ]; then
 	source /opt/ros/noetic/setup.zsh
 fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

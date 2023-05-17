@@ -49,8 +49,8 @@ Host wilco
 	ForwardX11Trusted yes
 
 Host hancock
-	HostName 192.168.186.11
-	User spencer
+	HostName 192.168.4.104
+	User pi
 	ForwardAgent yes
 	ForwardX11 yes
 	ForwardX11Trusted yes
@@ -70,14 +70,14 @@ Host posty
 	ForwardX11Trusted yes
 
 Host alice
-	HostName 192.168.1.62
+	HostName 192.168.4.103
 	User spencer
 	ForwardAgent yes
 	ForwardX11 yes
 	ForwardX11Trusted yes
 
 Host dan
-	HostName 192.168.1.147
+	HostName 192.168.4.104
 	User spencer
 	ForwardAgent yes
 	ForwardX11 yes
