@@ -119,6 +119,7 @@ alias c='clear'
 alias sourz='source ~/.zshrc'
 alias vimz='vim ~/.zshrc'
 alias vimc='vim ~/.ssh/config'
+alias catz="cat ~/.zshrc"
 
 alias mendeley='~/AppImages/mendeley-reference-manager*.AppImage >out 2>&1 &'
 alias kdenlive='~/AppImages/kdenlive*.AppImage &'
@@ -165,3 +166,10 @@ if [ "$DOCONDA" = true ]; then
 	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 fi
+
+# Set up ROS
+source /opt/ros/humble/setup.zsh
+
+source /usr/share/colcon_cd/function/colcon_cd.sh
+export _colcon_cd_root=/opt/ros/humble/
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash

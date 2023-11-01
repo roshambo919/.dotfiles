@@ -15,11 +15,24 @@ Host shallyburton-Bitbucket
 	IdentityFile /Users/Spencer/.ssh/shallyburton-Bitbucket
 # ----------------------------
 
+# In case port 22 blocked by firewall
+Host github.com
+	HostName github.com
+	AddressFamily inet
+
+
 # --- Manually Generated -- 
 
 
 Host eagles
-	HostName 192.168.1.230
+	HostName 192.168.0.26
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host nirvana
+	HostName 192.168.0.196
 	User spencer
 	ForwardAgent yes
 	ForwardX11 yes
@@ -35,7 +48,7 @@ Host jet
 # --NAS
 
 Host nastynas
-	HostName 192.168.186.5
+	HostName 192.168.4.101
 	User spencer
 
 
@@ -84,7 +97,7 @@ Host dan
 	ForwardX11Trusted yes
 
 Host pvc
-	HostName 172.20.10.12
+	HostName 172.20.10.3
 	User pi
 
 # --duke machines
