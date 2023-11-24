@@ -168,8 +168,7 @@ if [ "$DOCONDA" = true ]; then
 fi
 
 # Set up ROS
-source /opt/ros/humble/setup.zsh
-
-source /usr/share/colcon_cd/function/colcon_cd.sh
-export _colcon_cd_root=/opt/ros/humble/
-source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+[ ! -d /opt/ros/humble ] || source /opt/ros/humble/setup.zsh
+[ ! -d /usr/share/colcon_cd ] || source /usr/share/colcon_cd/function/colcon_cd.sh
+[ ! -d /opt/ros/humble ] || export _colcon_cd_root=/opt/ros/humble/
+[ ! -d /usr/share/colcon_argcomplete ] || source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
