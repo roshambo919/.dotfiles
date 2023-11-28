@@ -106,6 +106,13 @@ Host dcc
 	HostName dcc-login.oit.duke.edu
 	User rsh29
 
+Host radiohead
+	HostName research-cpslab-01.oit.duke.edu
+	User rsh29
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
 Host megadeth
 	HostName 10.237.193.186
 	User spencer
