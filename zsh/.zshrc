@@ -120,6 +120,7 @@ alias sourz='source ~/.zshrc'
 alias vimz='vim ~/.zshrc'
 alias vimc='vim ~/.ssh/config'
 alias catz="cat ~/.zshrc"
+alias catc="cat ~/.ssh/config"
 
 alias mendeley='~/AppImages/mendeley-reference-manager*.AppImage >out 2>&1 &'
 alias kdenlive='~/AppImages/kdenlive*.AppImage &'
