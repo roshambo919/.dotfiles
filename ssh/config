@@ -23,6 +23,12 @@ Host github.com
 
 # --- Manually Generated -- 
 
+Host aretha
+	HostName 10.197.156.211
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
 
 Host eagles
 	HostName 192.168.0.26
