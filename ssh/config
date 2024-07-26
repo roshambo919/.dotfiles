@@ -30,6 +30,24 @@ Host aretha
 	ForwardX11 yes
 	ForwardX11Trusted yes
 
+Host cpsl2
+	HostName 10.197.156.240
+	User cpsl
+
+Host cpsl-jetson-1
+	HostName 10.197.70.221
+	User f1tenth-team
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host cpsl-jetson-2
+	HostName 10.197.12.197
+	User f1tenth-team
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
 Host eagles
 	HostName 192.168.0.26
 	User spencer
