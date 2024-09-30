@@ -21,9 +21,11 @@ Host github.com
 	AddressFamily inet
 
 
-# --- Manually Generated -- 
+# ----------------------------
+# DUKE MACHINES
+# ----------------------------
 
-Host aretha
+Host dave
 	HostName 10.197.156.211
 	User spencer
 	ForwardAgent yes
@@ -37,27 +39,10 @@ Host cpsl2
 Host cpsl-jetson-1
 	HostName 10.197.70.221
 	User f1tenth-team
-	ForwardAgent yes
-	ForwardX11 yes
-	ForwardX11Trusted yes
 
 Host cpsl-jetson-2
 	HostName 10.197.12.197
 	User f1tenth-team
-	ForwardAgent yes
-	ForwardX11 yes
-	ForwardX11Trusted yes
-
-Host eagles
-	HostName 192.168.0.26
-	User spencer
-	ForwardAgent yes
-	ForwardX11 yes
-	ForwardX11Trusted yes
-
-Host nirvana
-	HostName 192.168.0.196
-	User spencer
 	ForwardAgent yes
 	ForwardX11 yes
 	ForwardX11Trusted yes
@@ -68,68 +53,7 @@ Host jet
 	ForwardAgent yes
 	ForwardX11 yes
 	ForwardX11Trusted yes
-
-# --NAS
-
-Host nastynas
-	HostName 192.168.4.101
-	User spencer
-
-
-# --raspberry pi
-
-Host wilco
-	HostName 192.168.186.2
-	User pi
-	ForwardAgent yes
-	ForwardX11 yes
-	ForwardX11Trusted yes
-
-Host hancock
-	HostName 192.168.4.104
-	User pi
-	ForwardAgent yes
-	ForwardX11 yes
-	ForwardX11Trusted yes
-
-Host jack
-	HostName 192.168.186.8
-	User spencer
-	ForwardAgent yes
-	ForwardX11 yes
-	ForwardX11Trusted yes
-
-Host posty
-	HostName 192.168.186.9
-	User spencer
-	ForwardAgent yes
-	ForwardX11 yes
-	ForwardX11Trusted yes
-
-Host alice
-	HostName 192.168.4.103
-	User spencer
-	ForwardAgent yes
-	ForwardX11 yes
-	ForwardX11Trusted yes
-
-Host dan
-	HostName 192.168.4.104
-	User spencer
-	ForwardAgent yes
-	ForwardX11 yes
-	ForwardX11Trusted yes
-
-Host pvc
-	HostName 172.20.10.3
-	User pi
-
-# --duke machines
-
-Host dcc
-	HostName dcc-login.oit.duke.edu
-	User rsh29
-
+	
 Host radiohead
 	HostName research-cpslab-01.oit.duke.edu
 	User rsh29
@@ -163,28 +87,85 @@ Host coolj
 	ForwardX11 yes
 	ForwardX11Trusted yes
 
+# ----------------------------
+# SPENCER MACHINES
+# ----------------------------
 
-# -- server and VM's
-
-Host theprodigy
-	HostName 192.168.186.7
+Host eagles
+	HostName 192.168.0.26
 	User spencer
 	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
 
-Host vm1-bridge
-	HostName 192.168.186.179
+Host nirvana
+	HostName 192.168.0.196
 	User spencer
 	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
 
-Host vm0
-	HostName 192.168.122.229
+Host nastynas
+	HostName 192.168.0.222
+	User spencer
+
+Host jet-local
+	HostName 192.168.0.130
 	User spencer
 	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
 
-Host hass
-	HostName 192.168.186.128
+Host alice
+	HostName 192.168.0.62
 	User spencer
 	ForwardAgent yes
-
+	ForwardX11 yes
+	ForwardX11Trusted yes
 
 # ----------------------------
+# NOT YET RECONFIGURED
+# ----------------------------
+
+Host wilco
+	HostName 192.168.0.2
+	User pi
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host hancock
+	HostName 192.168.0.105
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host jack
+	HostName 192.168.0.8
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host posty
+	HostName 192.168.0.9
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+Host dan
+	HostName 192.168.4.104
+	User spencer
+	ForwardAgent yes
+	ForwardX11 yes
+	ForwardX11Trusted yes
+
+# ----------------------------
+# OTHER LOCATIONS
+# ----------------------------
+
+Host pvc
+	HostName 172.20.10.3
+	User pi
